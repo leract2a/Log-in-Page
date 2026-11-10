@@ -1,0 +1,101 @@
+/* Basic design for the LSB Sign In and Sign Up pages */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    color: #222;
+}
+
+.container {
+    width: 100%;
+    max-width: 390px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
+h1 {
+    margin: 0 0 8px;
+    text-align: center;
+    color: #1d4ed8;
+}
+
+.subtitle {
+    margin: 0 0 25px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin: 14px 0 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+button, .logout-button {
+    display: block;
+    width: 100%;
+    margin-top: 22px;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, .logout-button:hover {
+    background: #1d4ed8;
+}
+
+.bottom-text {
+    margin-top: 22px;
+    text-align: center;
+    font-size: 13px;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 6px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    text-align: center;
+    font-size: 13px;
+}
+
+.dashboard {
+    text-align: center;
+}
+
+.dashboard p {
+    line-height: 1.5;
+}
